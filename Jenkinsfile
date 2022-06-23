@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                    chmod +x ./scripts/exercise1.sh
-                   ./script/exercise1.sh
+                   ./scripts/exercise1.sh
                 '''
             }
         }
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh '''
                     chmod +x ./scripts/exercise2.sh
-                    ./script/exercise2.sh
+                    ./scripts/exercise2.sh
                 '''
             }
         }
