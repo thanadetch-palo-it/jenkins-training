@@ -11,7 +11,6 @@ pipeline {
         stage('exercise 2') {
             steps {
                 sh '''
-                    ls -ls
                     sed -e 's/devops/Hello World/g' example.txt
                     echo example1.txt
                 '''
